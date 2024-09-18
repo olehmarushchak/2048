@@ -1,10 +1,14 @@
-# GAME 2048
+# Creative 2048 Game
+[DEMO LINK](https://olehmarushchak.github.io/2048/)
 
-Use a HTML, CSS, JS.
+Stack use in project: 
+-CSS
+-HTML
+-JS
 
-## Github flow
-1. **Fork** the repo.
-2. **Clone** the forked one.
+## Local start and GIThab flow
+1. **Fork** the file in your repo.
+2. **Clone** copy URL or SSH for clone and use  `git clone <your__fork__link>`.
 3. Run `npm install` (or just `npm i`).
 4. Run `npm start`.
 5. Open one more terminal window for the next steps.
@@ -15,9 +19,6 @@ Use a HTML, CSS, JS.
 10. `git add . && git commit -m 'solution'` to save your changes.
 11. `git push origin develop` - to send you code for PR.
 12. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
-13. Replace `<your_account>` with your Github username in the
-  [DEMO LINK](https://olehmarushchak.github.io/js_2048_game/).
-14. Copy `DEMO LINK` to the PR description.
 
 > To update you PR repeat steps 7-11.
 
