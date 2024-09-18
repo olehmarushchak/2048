@@ -29,7 +29,7 @@ To run the game locally:
 
 Clone the repository:
 
-git clone https://github.com/olehmarushchak/js_2048_game.git
+git clone https://github.com/olehmarushchak/2048
 Navigate to the project directory:
 
 cd js_2048_game
