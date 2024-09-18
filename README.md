@@ -1,25 +1,51 @@
-# Creative 2048 Game
-[DEMO LINK](https://olehmarushchak.github.io/2048/)
+# 2048 Game
 
-Stack use in project: 
--CSS
--HTML
--JS
+## Overview
+This repository contains a web-based implementation of the popular 2048 game built using native JavaScript, CSS, and HTML. The game is simple but highly addictive: merge tiles of the same value to create a tile with the number 2048!
 
-## Local start and GIThab flow
-1. **Fork** the file in your repo.
-2. **Clone** copy URL or SSH for clone and use  `git clone <your__fork__link>`.
-3. Run `npm install` (or just `npm i`).
-4. Run `npm start`.
-5. Open one more terminal window for the next steps.
-6. `git checkout -b develop` - to create new branch and switch on it.
-7. Write you code in `src` folder.
-8. Run `npm run lint` and fix code style errors.
-9. Run `npm run deploy` to deploy your solution to `gh-pages`.
-10. `git add . && git commit -m 'solution'` to save your changes.
-11. `git push origin develop` - to send you code for PR.
-12. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
+You can play it in your browser without the need for any additional frameworks or libraries.
 
-> To update you PR repeat steps 7-11.
+[DEMO LINK](https://olehmarushchak.github.io/2048/);
 
-15. Check yourself using the [CHECKLIST](https://github.com/mate-academy/layout_creativeBakery/blob/master/checklist.md) when finished;
+## Features
+- Native JavaScript: No external libraries or frameworks required.
+- Responsive Design: Built with CSS to ensure the game looks good on various screen sizes.
+- Intuitive Controls: Use arrow keys to control the tiles.
+- Tile Merging Logic: When two tiles of the same number collide, they merge into one tile with double the value.
+- Score Tracking: Keep track of your score as you merge tiles.
+
+## How to Play
+- Start the Game: Tiles with values of 2 and 4 will randomly appear on the grid.
+- Move the Tiles: Use your keyboard's arrow keys (↑, ↓, ←, →) to move all the tiles in the chosen direction.
+- Merge Tiles: When two tiles of the same number collide, they will merge into a single tile with their values combined (e.g., 2 + 2 = 4).
+- Winning the Game: Reach the tile with the value 2048 to win!
+- Losing the Game: The game ends if no more valid moves can be made.
+
+## Controls
+- Arrow Keys: Move the tiles in the desired direction (up, down, left, or right).
+
+## Setup
+To run the game locally:
+
+Clone the repository:
+
+git clone https://github.com/olehmarushchak/js_2048_game.git
+Navigate to the project directory:
+
+cd js_2048_game
+Open the index.html file in your browser:
+
+open index.html
+Or simply drag and drop index.html into your browser.
+
+## Technologies Used
+1. JavaScript (ES6+): Game logic and interactivity.
+2. HTML5: Game layout and structure.
+3. CSS3: Styling and responsiveness.
+
+## Fork the repository
+Create your feature branch (git checkout -b feature/my-feature)
+Commit your changes (git commit -m 'Add my feature')
+Push to the branch (git push origin feature/my-feature)
+Open a Pull Request
+
